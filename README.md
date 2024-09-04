@@ -1,8 +1,7 @@
 # Next.js 14 Starter Kit
 
-[Image: Logo du kit starter ou capture d'écran de l'application de démonstration]
 
-Ce kit starter offre une base solide pour démarrer rapidement des projets avec Next.js 14, en intégrant des technologies modernes pour une expérience de développement optimale.
+This starter kit provides a solid foundation for getting projects up and running quickly with Next.js 14, integrating modern technologies for an optimal development experience.
 
 ## 🚀 Technologies
 
@@ -10,99 +9,99 @@ Ce kit starter offre une base solide pour démarrer rapidement des projets avec 
 
 ![Next.js Logo](https://www.drupal.org/files/project-images/nextjs-drupal.jpg)
 
-Next.js 14 est un framework React qui permet de créer des applications web rapides et optimisées. Il offre le rendu côté serveur, la génération de sites statiques, et de nombreuses optimisations de performance.
+Next.js 14 is a React framework for creating fast, optimized web applications. It offers server-side rendering, static site generation and numerous performance optimizations.
 
 **Caractéristiques clés :**
 
-- Rendu hybride (SSR + SSG)
-- Optimisation automatique des images
-- Routing basé sur le système de fichiers
+- Hybrid rendering (SSR + SSG)
+- Automatic image optimization
+- File system-based routing
 
 ### React Query
 
 ![React Query Logo](https://miro.medium.com/v2/resize:fit:513/1*NvNjVbjTCT_qqloPnR098w.png)
 
-React Query est une bibliothèque de gestion d'état et de requêtes pour React. Elle simplifie la récupération, la mise en cache, la synchronisation et la mise à jour de l'état du serveur dans vos applications.
+React Query is a state management and query library for React. It simplifies the retrieval, caching, synchronization and updating of server state in your applications.
 
-**Avantages :**
+**Benefits :**
 
-- Gestion automatique du cache
-- Rechargement en arrière-plan
-- Gestion des erreurs et des retries
+- Automatic cache management
+- Reloading in the background
+- Error and rework management
 
 ### Zustand
 
 ![Zustand Logo](https://th.bing.com/th/id/R.7ca577fd8e2eb0361928fb0da75c82bc?rik=iDOuE%2fBN%2bQicjw&pid=ImgRaw&r=0)
 
-Zustand est une solution de gestion d'état minimaliste pour React. Elle offre une API simple et intuitive pour gérer l'état global de votre application.
+Zustand is a minimalist state management solution for React. It offers a simple, intuitive API for managing the global state of your application.
 
-**Points forts :**
+**Highlights :**
 
-- API simple et directe
-- Pas de boilerplate
-- Compatible avec les hooks React
+- Simple, straightforward API
+- Fit the boilerplate
+- Compatible with React hooks
 
 ### Ky
 
 ![Ky Logo](https://raw.githubusercontent.com/sindresorhus/ky/3ba40cc6333cf1847c02c51744e22ab7c04407f5/media/logo.svg)
 
-Ky est une bibliothèque HTTP basée sur Fetch, légère et puissante. Elle offre une interface moderne pour effectuer des requêtes HTTP.
+Ky is a lightweight, powerful HTTP library based on Fetch. It offers a modern interface for making HTTP requests.
 
-**Caractéristiques :**
+**Features :**
 
 - API Promise-based
-- Retries automatiques
-- Timeout par défaut
+- Automatic retries
+- Default timeout
 
 ### Tailwind CSS
 
 ![Tailwind CSS Logo](https://th.bing.com/th/id/OIP.S-SYtYzIhgPRnmRd8yWH4gHaEH?rs=1&pid=ImgDetMain)
 
-Tailwind CSS est un framework CSS utilitaire qui permet de construire rapidement des designs personnalisés sans quitter votre HTML.
+Tailwind CSS is a CSS framework utility that lets you quickly build custom designs without leaving your HTML.
 
-**Avantages :**
+**Benefits :**
 
-- Développement rapide
-- Hautement personnalisable
-- Taille de bundle optimisée en production
+- Rapid development
+- Highly customisable
+- Optimised bundle size in production
 
 ## 🛠 Installation
 
-1. Clonez ce dépôt :
+1. Clone this repository :
    git clone https://github.com/votre-username/nextjs14-starter-kit.git
 
-2. Installez les dépendances :
+2. Install the dependencies :
 
 ```bash
   cd nextjs14-starter-kit npm install
 ```
 
-3. Lancez le serveur de développement :
+3. Launch the development server :
 
 ```bash
   npm run dev
 ```
 
-4. Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## 📂 Structure du Projet
+## 📂 Project structure
 
-Ce projet suit une architecture modulaire et organisée pour faciliter le développement et la maintenance. Voici une description détaillée de sa structure :
+This project follows a modular and organised architecture to facilitate development and maintenance. Here is a detailed description of its structure:
 
 ## Screenshots
 
 ![App Screenshot](/public/assets/directories.png)
 
-## Explication des Dossiers
+## Explanation of the files
 
-- **`app/`**: Contient les fichiers de pages spécifiques de Next.js. Chaque fichier représente une route.
-- **`app/home/api`**: Contient les fonctions qui font appel aux routes api.
-- **`app/home/components`**: Liste des composants React spécifiques à la section **`app/home`**.
-- **`app/home/store`**: Store de la section **`app/home`**.
-- **`components/`**: Contient des composants globeaux React qui peuvent être réutilisés dans différentes parties de l'application.
-- **`lib/`**: Utilisé pour stocker des configurations spécifiques à des bibliothèques telles que `ky`.
-- **`lib/hooks`**: Répertoire pour les hooks personalisés notamment pour l'intégration de React Query.
-- **`styles/`**: Inclut les styles globaux et la configuration de Tailwind CSS.
-- **`public/`**: Contient les ressources statiques accessibles publiquement.
+- **`app/`**: Contains the files for specific Next.js pages. Each file represents a route.
+- **`app/home/api`**: Contains the functions that use api routes.
+- **`app/home/components`**: List of React components specific to the section **`app/home`**.
+- **`app/home/store`**: Store section **`app/home`**.
+- **`components/`**: Contains React global components that can be reused in different parts of the application.
+- **`lib/`**: Used to store library-specific configurations such as `ky`.
+- **`lib/hooks`**: Directory for custom hooks, in particular for integrating React Query.
+- **`styles/`**: Includes global styles and Tailwind CSS configuration.
+- **`public/`**: Contains publicly accessible static resources.
 
-Cette structure de projet aide à maintenir les responsabilités bien définies pour chaque partie du code, améliorant ainsi la lisibilité et la facilité de maintenance. Vous pouvez le réadapter selon vos besoins😊👌.
+This project structure helps to maintain well-defined responsibilities for each part of the code, improving readability and ease of maintenance. You can adapt it to suit your needs😊👌.
